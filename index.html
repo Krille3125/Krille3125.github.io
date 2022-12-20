@@ -1,14 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kristians Projekt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="IST - PraktikWebsite.css" />
 </head>
 
-<body>
+<body id="bodyh">
+    <h1>Kristians Sociale Medier</h1>
+
+    <h3>Her vil du have mulighed for at kunne se alle Kristian's Sociale Medier!</h3>
+
+    <div class="link-container">
+        <div class="social-page-entry">
+            <a href="https://www.facebook.com/">
+                <img src="facebookImage.png" alt="" /> </a>
+            <a href="https://www.facebook.com/kristian.lyngehvid">Kristian Hvid</a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://www.instagram.com">
+                <img src="png-clipart-instagram-social-networking-service-dam-logo-viber-text-rectangle.png"
+                    alt="" /></a>
+            <a href="https://www.instagram.com/kristianlyngehvid/">Kristian Hvid</a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://web.snapchat.com/">
+                <img src="20190808214526!Logo-Snapchat.png" alt="" /> <br> Kristian Hvid</a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://twitter.com/">
+                <img src="twitter-logo-vector-png-clipart-1.png" alt="" /></a>
+            <a href="https://twitter.com/Kristia62244375?t=NyPAbUHZVAzDvSNFbrTQ3A&s=09">Kristia62244375</a></a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://www.reddit.com">
+                <img src="free-reddit-logo-icon-2436-thumb.png" alt="" /> </a>
+            <a href="https://www.reddit.com/u/Krille3125?utm_medium=android_app&utm_source=share">Krille3125</a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://www.discord.com">
+                <img src="636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="" />Krille#3125</a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://www.twitch.tv">
+                <img src="purple-twitch-logo-png-18.png" alt="" /> </a>
+            <a href="https://www.twitch.tv/krille-plays">KrillePlays</a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://github.com/">
+                <img src="25231.png" alt="" /></a>
+            <a href="https://github.com/Krille3125">Krille3125</a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://www.instagram.com">
+                <img src="png-clipart-instagram-social-networking-service-dam-logo-viber-text-rectangle.png"
+                    alt="" /></a>
+            <a href="https://www.instagram.com/krilleplaysyt/">KrillePlays</a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://www.youtube.com">
+                <img src="youtube-play-red-logo-png-transparent-background-6.png" alt="" /></a>
+            <a href="https://www.youtube.com/channel/UCUzn5p_LwMjznwjqthREEBg">Krille <br> Krille2160</a>
+        </div>
+
+        <div class="social-page-entry">
+            <a href="https://www.tiktok.com">
+                <img src="tik-tok-tiktok-logo-app-trend-1.png" alt="" /></a>
+            <a href="https://www.tiktok.com/@krille_3125">Krille <br> Krille_3125</a>
+        </div>
+
+        <button id="LightMode">Light mode</button>
+    </div>
+
+    <script>
+
+        document.getElementById("LightMode").addEventListener("click", () => {
+
+            if (document.getElementById("LightMode").innerHTML == 'Dark mode') {
+                document.getElementById("LightMode").innerHTML = 'Light Mode';
+            } else {
+                document.getElementById("LightMode").innerHTML = 'Dark mode';
+
+            }
+
+
+            document.getElementById('bodyh').classList.toggle('LightMode')
+        })
+
+    </script>
+
 
 </body>
 
