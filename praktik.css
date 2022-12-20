@@ -1,0 +1,176 @@
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a[href*="facebook"] {
+    color: #1877f2;
+
+    text-align: center;
+}
+
+a[href*="snapchat"] {
+    color: yellow;
+
+    text-align: center;
+}
+
+a[href*="instagram"] {
+    color: rgb(250, 83, 32);
+
+    text-align: center;
+}
+
+a[href*="twitter"] {
+    color: lightblue;
+
+    text-align: center;
+}
+
+a[href*="reddit"] {
+    color: rgb(212, 97, 48);
+
+    text-align: center;
+}
+
+a[href*="discord"] {
+    color: darkgrey;
+
+    text-align: center;
+}
+
+a[href*="twitch"] {
+    color: purple;
+
+    text-align: center;
+}
+
+a[href*="github"] {
+    color: violet;
+
+    text-align: center;
+}
+
+a[href*="youtube"] {
+    color: red;
+
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    color: #5e5e5e;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color: #706161;
+}
+
+body {
+    background: #000000e7;
+    margin: 0;
+    padding: 0;
+    height: calc(100vh);
+}
+
+body.LightMode {
+    background-color: white;
+}
+
+body.LightMode .social-page-entry {
+    background-color: white;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: center;
+    width: 100%;
+}
+
+.social-page-entry {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #282741;
+    border-radius: 25px;
+    margin-right: 10px;
+    padding: 10px;
+
+    height: 150px;
+    width: 165px;
+
+    transition: all 0.1s ease-in-out;
+
+    border: 2px solid #414065;
+}
+
+/* .social-page-entry:not(:hover) {
+    background-color: blue;
+  } */
+
+.social-page-entry:hover {
+    transform: scale(1.08);
+}
+
+
+img {
+    width: 65px;
+    height: 75px;
+}
+
+
+button {
+    appearance: none;
+    background-color: #8b03fa;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+button:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+button:hover {
+    background-color: #6133ac;
+}
+
+button:focus {
+    box-shadow: #43118566 0 0 0 3px;
+    outline: none;
+}
+
+button:disabled {
+    background-color: #260968;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+button:active {
+    background-color: #200453;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
