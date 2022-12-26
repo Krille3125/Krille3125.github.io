@@ -95,6 +95,7 @@ body.LightMode .social-page-entry {
 
 .social-page-entry {
     display: flex;
+    position: relative;
     flex-direction: column;
     text-align: center;
     background-color: #282741;
