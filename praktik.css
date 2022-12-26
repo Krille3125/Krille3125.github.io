@@ -86,7 +86,7 @@ body.LightMode .social-page-entry {
 
 .link-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 
     align-items: center;
